@@ -6,5 +6,5 @@
 
   tasks:
     - setup:
-         gather_subset:
-            - vlan
+        # gather_subset:
+        #    - vlan
