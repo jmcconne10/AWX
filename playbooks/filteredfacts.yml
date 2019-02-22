@@ -6,4 +6,6 @@
 
   tasks:
     - setup:
-        filter: ansible_all_ipv4_addresses
+         gather_subset:
+            - ansible_all
+            - ansible_apparmor
