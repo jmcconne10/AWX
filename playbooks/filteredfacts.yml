@@ -6,4 +6,4 @@
 
   tasks:
     - setup:
-          filter: ansible_all*
+        #  filter: ansible_all*
