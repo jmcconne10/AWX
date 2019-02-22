@@ -2,7 +2,6 @@
 - name: Filtered Facts
   hosts: all
 
-  tasks:
   gather_facts: False
 
   tasks:
