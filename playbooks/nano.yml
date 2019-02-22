@@ -1,6 +1,6 @@
 ---
   - name: ensure a list of packages installed
-    hosts: linuxclients
+    hosts: all
     become: true
     tasks:
     - name: install yum!
