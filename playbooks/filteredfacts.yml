@@ -6,5 +6,5 @@
 
   tasks:
     - setup:
-         gather_subset: 'ansible'
+         gather_subset: 'ansible*'
         #    - vlan
