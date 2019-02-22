@@ -7,5 +7,4 @@
   tasks:
     - setup:
          gather_subset:
-            - ansible_all
-            - ansible_apparmor
+            - vlan
