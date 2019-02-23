@@ -2,9 +2,4 @@
 - name: Filtered Facts
   hosts: all
 
-  gather_facts: False
-
-  tasks:
-    - setup:
-         filter:
-        #    - vlan
+  gather_facts: True
