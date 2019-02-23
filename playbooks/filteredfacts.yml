@@ -7,6 +7,4 @@
   tasks:
     - setup:
          filter:
-              - ansible_all*
-              - ansible_app*
         #    - vlan
