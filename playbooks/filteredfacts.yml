@@ -1,9 +1,7 @@
 ---
-- name: Filtered Facts
-  hosts: all
-
-  gather_facts: True
-
+- name: Collect only facts returned by facter
   setup:
     gather_subset:
-      - hardware
+      - '!all'
+      - '!any'
+      - facter
