@@ -4,7 +4,6 @@
 
   gather_facts: True
 
-- name: Collect only facts returned by facter
   setup:
     gather_subset:
       - hardware
