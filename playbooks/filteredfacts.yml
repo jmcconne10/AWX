@@ -1,4 +1,4 @@
 ---
 - name: Collect only facts returned by facter
-   setup:
-    gather_subset: hardware
+  setup:
+      gather_subset: network
