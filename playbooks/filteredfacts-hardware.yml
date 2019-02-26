@@ -1,4 +1,6 @@
 ---
   - name: Collect only facts for hardware
+    hosts: all
+    
     setup:
       gather_subset: hardware
