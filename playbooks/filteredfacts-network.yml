@@ -1,9 +1,9 @@
 ---
 - name: Filtered Facts2
   hosts: all
-fasadas
+
   gather_facts: False
 
   tasks:
     - setup:
-         gather_subset: network
+         gather_subset: hardware
