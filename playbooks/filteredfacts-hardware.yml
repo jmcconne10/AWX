@@ -1,0 +1,9 @@
+---
+- name: Filtered Facts2
+  hosts: all
+
+  gather_facts: False
+
+  tasks:
+    - setup:
+         gather_subset: hardware
