@@ -6,4 +6,4 @@
 
   tasks:
     - setup:
-         gather_subset: hardware
+         gather_subset: network
