@@ -1,0 +1,9 @@
+---
+- name: Filtered Facts
+  hosts: all
+
+  gather_facts: False
+
+  tasks:
+    - setup:
+         gather_subset: network
