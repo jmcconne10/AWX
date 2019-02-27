@@ -1,5 +1,5 @@
 ---
-- name: Filtered Facts2
+- name: Filtered Facts Network
   hosts: all
 
   gather_facts: False
